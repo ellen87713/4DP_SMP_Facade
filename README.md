@@ -30,13 +30,7 @@ The tool links **experimental-based SMP material behavior** (infill ratio, thick
 
 ### 1.2 Grasshopper Plugins
 
-Install the following via Rhino's **Package Manager** (`Rhino > Tools > Package Manager`, or type `PackageManager` in the command line):
-
-| Plugin | Purpose in this file | Install via |
-|---|---|---|
-| **Ladybug** | Climate data import (EPW), sun-path analysis, environmental metrics | Package Manager → search `ladybug` |
-| **Honeybee** | Builds optical/radiance models from façade geometry, daylight & glare simulation (sDA, ASE, DGP) | Package Manager → search `honeybee` |
-| **Butterfly** | Interfaces Grasshopper with OpenFOAM for CFD natural ventilation simulation (airflow velocity, ACH) | Package Manager → search `butterfly` |
+Install the following Ladybug Plugins.
 
 > Ladybug Tools (Ladybug + Honeybee + Butterfly) are normally installed together as a suite. See [https://www.ladybug.tools](https://www.ladybug.tools) for the official installer and version compatibility notes.
 
