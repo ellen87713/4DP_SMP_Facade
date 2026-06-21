@@ -1,7 +1,7 @@
 # 4D-Printed Shape Memory Polymer for Responsive Facade
 
 <p align="center">
-<img src="images/cover page.png" width="400">
+<img src="images/cover page_2.png" width="400">
 </p>
 
 This repository contains the parametric Grasshopper definition and Rhino model developed for the MSc thesis:
