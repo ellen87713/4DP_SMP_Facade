@@ -36,7 +36,7 @@ Install the following Ladybug Plugins. Ladybug Tools (Ladybug + Honeybee + Butte
 
 | Software | Purpose |
 |---|---|
-| **Bambu Studio** | Used only to preview/verify the exported G-code (travel path, print quality) before sending it to a Bambu Lab X1-Carbon printer. Not required to run the Grasshopper file itself — G-code is generated directly from Module 05 without external slicing software. |
+| **Bambu Studio** | Used only to preview/verify the exported G-code (travel path, print quality) before sending it to a Bambu printer. Not required to run the Grasshopper file itself. G-code is generated directly from Module 05 without external slicing software. |
 
 ---
 
