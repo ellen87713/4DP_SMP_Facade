@@ -90,5 +90,5 @@ The Grasshopper file is organized into 5 modules, matching the CAD tool framewor
 ## Citation
 
 If you use or build on this tool, please cite:
-> To be added ciatation
+> To be added citation
 
