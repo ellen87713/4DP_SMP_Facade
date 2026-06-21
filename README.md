@@ -29,9 +29,7 @@ The tool links **experimental-based SMP material behavior** (infill ratio, thick
 
 ### 1.2 Grasshopper Plugins
 
-Install the following Ladybug Plugins.
-
-> Ladybug Tools (Ladybug + Honeybee + Butterfly) are normally installed together as a suite. See [https://www.ladybug.tools](https://www.ladybug.tools) for the official installer and version compatibility notes.
+Install the following Ladybug Plugins. Ladybug Tools (Ladybug + Honeybee + Butterfly) are normally installed together as a suite. See [https://www.ladybug.tools](https://www.ladybug.tools) for the official installer and version compatibility notes.
 
 ### 1.3 External Engines (required by the plugins above, not Grasshopper plugins themselves)
 
