@@ -16,7 +16,7 @@ The tool links experimental-based SMP material behavior (infill ratio, thickness
 <br>
 <br>
 📄 Full methodology, experiments, and results are documented in the accompanying thesis PDF in TU Delft Repository. <br>
-🔗 Link:...
+🔗 Link:...to be added
 
 
 ## Repository Contents
@@ -90,5 +90,5 @@ The Grasshopper file is organized into 5 modules, matching the CAD tool framewor
 ## Citation
 
 If you use or build on this tool, please cite:
-> Jiang, Y.A. (2026). *4D-Printed Shape Memory Polymers for Responsive Facades* [Master's thesis]. TU Delft.
+> To be added ciatation
 
