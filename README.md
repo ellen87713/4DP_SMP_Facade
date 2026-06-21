@@ -38,9 +38,9 @@ The tool links experimental-based SMP material behavior (infill ratio, thickness
 | **Grasshopper** | Built into Rhino 8 | — |
 
 ### 1.2 Grasshopper Plugins
-
-Install the following Ladybug Plugins. Ladybug Tools (Ladybug + Honeybee + Butterfly) are normally installed together as a suite. See [https://www.ladybug.tools](https://www.ladybug.tools) for the official installer and version compatibility notes.
-
+| Tools | Plugins | Notes |
+|---|---|---|
+| **Ladybug Tools** | Ladybug + Honeybee + Butterfly | See [https://www.ladybug.tools](https://www.ladybug.tools) for the official installer and version compatibility notes. |
 
 ### 1.3 Optional (for fabrication / G-code preview only)
 
