@@ -98,31 +98,20 @@ Each module is grouped/labeled on the canvas — use Grasshopper's **scribble/gr
 
 ---
 
-## 6. Known Dependencies / Things to Check Before Running
-
-- [ ] Rhino 8 installed and licensed
-- [ ] Ladybug, Honeybee, Butterfly all show as "Loaded" in Grasshopper's plugin list (`File > Special Folders > check installed plugins`, or look for them in the Grasshopper toolbar tabs)
-- [ ] Radiance is on your system PATH (Honeybee will warn on first run if it can't find it)
-- [ ] OpenFOAM is installed and accessible to Butterfly (Windows users: check the Butterfly docs for the recommended Docker/BlueCFD setup)
-- [ ] An EPW file for your climate of interest is downloaded locally (only needed for Module 04)
-- [ ] Both `4DP_SMP_Rhino.3dm` and `4DP_SMP_GHfile.gh` are kept together / paths re-linked on first open
-
----
-
-## 7. Citation
+## 6. Citation
 
 If you use or build on this tool, please cite:
 
-> Jiang, Y.-A. (2026). *4D-Printed Shape Memory Polymers for Responsive Facades* [Master's thesis]. TU Delft.
+> Jiang, Y.A. (2026). *4D-Printed Shape Memory Polymers for Responsive Facades* [Master's thesis]. TU Delft.
 
 ---
 
-## 8. AI Tool Disclosure
+## 7. AI Tool Disclosure
 
 Parts of this codebase were co-developed with the assistance of Claude (computational logic prototyping, later reconstructed and implemented in Grasshopper by the author) and Gemini (G-code generator scripting in Python/Grasshopper). All final integration, logic, and outputs were independently engineered by the author. See the thesis Acknowledgement section for full details.
 
 ---
 
-## 9. Contact / Issues
+## 8. Contact / Issues
 
 For questions about this repository, please open an issue on GitHub or contact the author via TU Delft.
