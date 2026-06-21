@@ -49,7 +49,7 @@ Install the following Ladybug Plugins. Ladybug Tools (Ladybug + Honeybee + Butte
 
 ---
 
-## 4. Workflow Structure (Module Overview)
+## 3. Workflow Structure (Module Overview)
 
 The Grasshopper file is organized into 5 modules, matching the CAD tool framework in the thesis (Section 4.3, Figure 42):
 
@@ -59,60 +59,23 @@ The Grasshopper file is organized into 5 modules, matching the CAD tool framewor
 03 — Façade System Design         →  Tiling, panel size, louver tilt angle aggregation
 04 — Performance Evaluation       →  Butterfly (CFD) + Honeybee/Ladybug (daylight, glare)
 05 — Fabrication                  →  Toolpath planning + G-code generator
+
 ```
-
-Each module is grouped/labeled on the canvas — use Grasshopper's **scribble/group panels** to navigate, or use `Display > Draw Fancy Wires` off for a clearer view of large clusters.
-
-### Module 01 — Material Behavior (Inverse Lookup)
-- Input: target curvature (κ*) and desired bending-axis direction.
-- Output: recommended `thickness`, `infill ratio`, and `infill pattern direction`, interpolated from the experimental dataset (Chapter 3, Table 5).
-- A warning flag is triggered if infill ratio drops below 55% (extreme deformation / structural instability zone).
-
-### Module 02 — Unit Design
-- **Pathway A (forward/parametric):** Define a flat polygon panel → set cut pattern, fold axis, target curvature per segment, anchor position → generates both the as-printed flat state and the thermally-activated curved state.
-- **Pathway B (inverse/freeform):** Input an arbitrary developable curved surface (your target façade shape) → the definition segments it by curvature continuity, reconstructs the rolling axis, and flattens it back into a fabrication-ready 2D panel.
-
-### Module 03 — Façade System Design
-- Aggregates individual panels/louvers into an array.
-- Adjustable parameters: panel size, tiling arrangement, louver tilt angle (see Table 7 in thesis).
-
-### Module 04 — Performance Evaluation
-- **Ventilation (Butterfly → OpenFOAM):** Requires OpenFOAM correctly installed/linked. Generates a CFD case from the façade geometry as an aerodynamic boundary, runs `blockMesh` → `snappyHexMesh` → solver, and returns airflow velocity / ACH at probe points.
-- **Daylighting (Honeybee → Radiance):** Converts façade geometry into Honeybee surfaces with the translucent SMP material modifier (diffuse reflectance 0.40 / transmittance 0.30), runs point-in-time or annual daylight recipes, and returns sDA, ASE, and DGP.
-- You will need an **EPW climate file** for your target location (e.g. Delft or Taipei) — download from [https://www.ladybug.tools/epwmap](https://www.ladybug.tools/epwmap) and point the Ladybug "Import EPW" component to its local path.
-
-### Module 05 — Fabrication
-- Converts the curved-surface geometry into a multi-zone toolpath (slicing, zone-based orientation, infill path generation, zig-zag sorting).
-- Outputs raw G-code (`G1` movement + extrusion commands) directly — no external slicer required.
-- Optionally preview the resulting G-code in **Bambu Studio** before sending to print.
-
 ---
 
-## 5. Quick Start
+## 4. Quick Start
 
-1. Open both files (Section 3).
+1. Open both files.
 2. In Module 01, set a target curvature value to see the recommended fabrication parameters.
 3. In Module 02 (Pathway A), toggle the polygon cut pattern / fold axis sliders to preview the as-printed vs. activated shape live in the Rhino viewport.
 4. In Module 03, array the unit across a façade grid and adjust tiling/tilt sliders.
-5. (Optional, requires OpenFOAM + Radiance set up) Run Module 04 to evaluate ventilation and daylighting for your configuration.
+5. In Module 04, evaluate ventilation and daylighting for your configuration.
 6. In Module 05, bake/export the G-code output to a `.gcode` file and preview it in Bambu Studio if desired.
 
 ---
 
-## 6. Citation
+## Citation
 
 If you use or build on this tool, please cite:
-
 > Jiang, Y.A. (2026). *4D-Printed Shape Memory Polymers for Responsive Facades* [Master's thesis]. TU Delft.
 
----
-
-## 7. AI Tool Disclosure
-
-Parts of this codebase were co-developed with the assistance of Claude (computational logic prototyping, later reconstructed and implemented in Grasshopper by the author) and Gemini (G-code generator scripting in Python/Grasshopper). All final integration, logic, and outputs were independently engineered by the author. See the thesis Acknowledgement section for full details.
-
----
-
-## 8. Contact / Issues
-
-For questions about this repository, please open an issue on GitHub or contact the author via TU Delft.
