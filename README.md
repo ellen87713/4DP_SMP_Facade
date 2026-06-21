@@ -7,8 +7,7 @@ Supervisors: Dr. Serdar Așut (Digital Technologies), Ir. Eric van den Ham (Envi
 
 The tool links **experimentally-derived SMP material behavior** (infill ratio, thickness, infill pattern → curvature) to **parametric façade geometry generation**, **fabrication-ready G-code output**, and **environmental performance simulation** (CFD ventilation + Radiance daylighting) within a single Grasshopper workflow.
 
-> 📄 Full methodology, experiments, and results are documented in the accompanying thesis PDF. This README only covers software setup and usage.
-
+> 📄 Full methodology, experiments, and results are documented in the accompanying thesis PDF in TU Delft Repository. Link:...
 ---
 
 ## Repository Contents
