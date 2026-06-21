@@ -31,14 +31,8 @@ The tool links **experimental-based SMP material behavior** (infill ratio, thick
 
 Install the following Ladybug Plugins. Ladybug Tools (Ladybug + Honeybee + Butterfly) are normally installed together as a suite. See [https://www.ladybug.tools](https://www.ladybug.tools) for the official installer and version compatibility notes.
 
-### 1.3 External Engines (required by the plugins above, not Grasshopper plugins themselves)
 
-| Engine | Used by | Notes |
-|---|---|---|
-| **Radiance** | Honeybee | Daylight/glare ray-tracing engine. Installed automatically by the Ladybug Tools installer, or install separately from [https://www.radiance-online.org](https://www.radiance-online.org). |
-| **OpenFOAM** | Butterfly | CFD solver used for ventilation simulation (`blockMesh`, `snappyHexMesh`, solver execution). On Windows, this typically runs through a Docker container or the Blue CFD / OpenFOAM-Windows distribution — see the [Butterfly documentation](https://github.com/ladybug-tools/butterfly) for the supported setup on your OS. |
-
-### 1.4 Optional (for fabrication / G-code preview only)
+### 1.3 Optional (for fabrication / G-code preview only)
 
 | Software | Purpose |
 |---|---|
