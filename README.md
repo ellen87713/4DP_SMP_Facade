@@ -59,7 +59,7 @@ Install the following Ladybug Plugins. Ladybug Tools (Ladybug + Honeybee + Butte
 The Grasshopper file is organized into 5 modules, matching the CAD tool framework in the thesis (Section 4.3, Figure 42):
 
 ```
-01 — Material Printing Behavior   →  Material lookup table (infill ratio, thickness, pattern → curvature)
+01 — Material Printing Behavior   →  Material lookup table (infill ratio, thickness, pattern)
 02 — Unit Design                  →  Pathway A (parametric) + Pathway B (inverse/freeform analysis)
 03 — Façade System Design         →  Tiling, panel size, louver tilt angle aggregation
 04 — Performance Evaluation       →  Butterfly (CFD) + Honeybee/Ladybug (daylight, glare)
