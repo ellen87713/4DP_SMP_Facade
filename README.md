@@ -5,7 +5,7 @@ This repository contains the parametric Grasshopper definition and Rhino model d
 Jiang Yu-Ai (Ellen) — TU Delft, 2026
 Supervisors: Dr. Serdar Așut (Digital Technologies), Ir. Eric van den Ham (Environmental & Climate Design)
 
-The tool links **experimentally-derived SMP material behavior** (infill ratio, thickness, infill pattern → curvature) to **parametric façade geometry generation**, **fabrication-ready G-code output**, and **environmental performance simulation** (CFD ventilation + Radiance daylighting) within a single Grasshopper workflow.
+The tool links **experimental-based SMP material behavior** (infill ratio, thickness, infill pattern) to **parametric façade geometry generation**, **fabrication-ready G-code output**, and **environmental performance simulation** (CFD ventilation + Radiance daylighting) within a single Grasshopper workflow.
 
 > 📄 Full methodology, experiments, and results are documented in the accompanying thesis PDF in TU Delft Repository. Link:...
 ---
