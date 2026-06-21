@@ -9,7 +9,6 @@ The tool links **experimental-based SMP material behavior** (infill ratio, thick
 
 📄 Full methodology, experiments, and results are documented in the accompanying thesis PDF in TU Delft Repository. Link:...
 
-
 ## Repository Contents
 
 | File | Description |
