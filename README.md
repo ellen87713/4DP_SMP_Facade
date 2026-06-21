@@ -5,16 +5,19 @@
 </p>
 
 This repository contains the customized Grasshopper definition and Rhino model developed for the MSc thesis:
-
+<br>
+<br>
 **"4D-Printed Shape Memory Polymers for Responsive Facades"**
 Jiang Yu-Ai (Ellen) — TU Delft, 2026 <br>
 Supervisors: Dr. Serdar Așut (Digital Technologies), Ir. Eric van den Ham (Environmental & Climate Design)
-
-The tool links **experimental-based SMP material behavior** (infill ratio, thickness, infill pattern) to **parametric façade geometry generation**, **fabrication-ready G-code output**, and **environmental performance simulation** (CFD ventilation + Radiance daylighting) within a single Grasshopper workflow. <br>
-Note: Customized Python scripts are written directly inside the .gh file (via GhPython / Script components) for several modules. <br>
-
+<br>
+<br>
+The tool links experimental-based SMP material behavior (infill ratio, thickness, infill pattern) to parametric façade geometry generation, fabrication-ready G-code output, and environmental performance simulation (CFD ventilation + Radiance daylighting) within a single Grasshopper workflow. Note: Customized Python scripts are written directly inside the .gh file (via GhPython / Script components) for several modules. <br>
+<br>
+<br>
 📄 Full methodology, experiments, and results are documented in the accompanying thesis PDF in TU Delft Repository. <br>
 🔗 Link:...
+
 
 ## Repository Contents
 
