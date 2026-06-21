@@ -1,4 +1,9 @@
 # 4D-Printed Shape Memory Polymer for Responsive Facade
+
+<p align="center">
+<img src="images/IMG_1489.HEIC" width="600">
+</p>
+
 This repository contains the parametric Grasshopper definition and Rhino model developed for the MSc thesis:
 
 **"4D-Printed Shape Memory Polymers for Responsive Facades"**
@@ -61,6 +66,10 @@ The Grasshopper file is organized into 5 modules, matching the CAD tool framewor
 05 — Fabrication                  →  Toolpath planning + G-code generator
 
 ```
+<p align="center">
+<img src="images/workflow.svg" width="600">
+</p>
+
 ---
 
 ## 4. Quick Start
