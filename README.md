@@ -40,29 +40,11 @@ Install the following Ladybug Plugins. Ladybug Tools (Ladybug + Honeybee + Butte
 
 ---
 
-## 2. Installation Steps
-
-1. Install **Rhino 8** (trial or licensed) — [https://www.rhino3d.com/download](https://www.rhino3d.com/download)
-2. Open Rhino 8 → launch **Grasshopper**.
-3. Open `PackageManager` from the Rhino command line.
-4. Search and install: `Ladybug Tools` (this installs Ladybug, Honeybee, and Butterfly together in recent releases — if not, install each individually).
-5. Restart Rhino after installation.
-6. On first run of any Ladybug/Honeybee/Butterfly component, you may be prompted to confirm installation of the underlying Python environment / Radiance / OpenFOAM dependencies — follow the plugin's own setup prompts.
-7. Clone or download this repository.
-
-```bash
-git clone https://github.com/ellen87713/4DP_SMP_Facade.git
-```
-
----
-
-## 3. Opening the File
+## 2. Opening the File
 
 1. Open `4DP_SMP_Rhino.3dm` in Rhino 8 first (this loads the reference geometry/units that the GH file expects).
 2. From within that Rhino session, open `4DP_SMP_GHfile.gh` in Grasshopper (`File > Open`, or drag-and-drop into the Grasshopper canvas).
 3. Grasshopper components referencing Rhino geometry (curves, surfaces, the test room volume) will automatically re-link to the geometry in the open `.3dm` file. If any component shows a red error icon, right-click it → confirm it is still referencing the correct Rhino layer/object.
-
-> ⚠️ Keep both files in the same relative location if the GH file uses any relative file paths (e.g. for G-code export or EPW climate files — see Section 6).
 
 ---
 
