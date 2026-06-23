@@ -71,7 +71,7 @@ The Grasshopper file is organized into 5 modules, matching the CAD tool framewor
 
 ```
 <p align="center">
-<img src="images/workflow.svg" width="600">
+<img src="images/workflow.jpg" width="600">
 </p>
 
 ---
